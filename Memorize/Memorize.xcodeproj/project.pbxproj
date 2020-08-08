@@ -17,6 +17,13 @@
 		D678CB8024DDA3430012DE2D /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB7F24DDA3430012DE2D /* GridLayout.swift */; };
 		D678CB8224DDAA710012DE2D /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB8124DDAA710012DE2D /* Array+Identifiable.swift */; };
 		D678CB8424DDB98A0012DE2D /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB8324DDB98A0012DE2D /* Array+Only.swift */; };
+		D678CB8E24DEF8550012DE2D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB8D24DEF8550012DE2D /* Theme.swift */; };
+		D678CB9224DEFAFB0012DE2D /* HalloweenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9124DEFAFB0012DE2D /* HalloweenTheme.swift */; };
+		D678CB9424DEFD240012DE2D /* FaceTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9324DEFD240012DE2D /* FaceTheme.swift */; };
+		D678CB9A24DF02010012DE2D /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9924DF02010012DE2D /* ColoredButton.swift */; };
+		D678CB9C24DF0B6E0012DE2D /* FoodTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9B24DF0B6E0012DE2D /* FoodTheme.swift */; };
+		D678CB9E24DF0C530012DE2D /* SportTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9D24DF0C530012DE2D /* SportTheme.swift */; };
+		D678CBA024DF0E0B0012DE2D /* FlagTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D678CB9F24DF0E0B0012DE2D /* FlagTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		D678CB7F24DDA3430012DE2D /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		D678CB8124DDAA710012DE2D /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		D678CB8324DDB98A0012DE2D /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		D678CB8D24DEF8550012DE2D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D678CB9124DEFAFB0012DE2D /* HalloweenTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenTheme.swift; sourceTree = "<group>"; };
+		D678CB9324DEFD240012DE2D /* FaceTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTheme.swift; sourceTree = "<group>"; };
+		D678CB9924DF02010012DE2D /* ColoredButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredButton.swift; sourceTree = "<group>"; };
+		D678CB9B24DF0B6E0012DE2D /* FoodTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTheme.swift; sourceTree = "<group>"; };
+		D678CB9D24DF0C530012DE2D /* SportTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTheme.swift; sourceTree = "<group>"; };
+		D678CB9F24DF0E0B0012DE2D /* FlagTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 		D61D1C8024B6333B003CA395 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				D678CB8C24DEF84A0012DE2D /* Theme */,
 				D678CB8824DEF41A0012DE2D /* ViewModel */,
 				D678CB8724DEF4090012DE2D /* Model */,
 				D678CB8624DEF3C70012DE2D /* Extension */,
@@ -90,6 +105,7 @@
 				D678CB7F24DDA3430012DE2D /* GridLayout.swift */,
 				D678CB7D24DD9FAA0012DE2D /* Grid.swift */,
 				D61D1C8324B6333B003CA395 /* EmojiMemoryGameView.swift */,
+				D678CB9924DF02010012DE2D /* ColoredButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +133,19 @@
 				D61D1C9224B649B5003CA395 /* EmojiMemoryGame.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D678CB8C24DEF84A0012DE2D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D678CB8D24DEF8550012DE2D /* Theme.swift */,
+				D678CB9124DEFAFB0012DE2D /* HalloweenTheme.swift */,
+				D678CB9324DEFD240012DE2D /* FaceTheme.swift */,
+				D678CB9B24DF0B6E0012DE2D /* FoodTheme.swift */,
+				D678CB9D24DF0C530012DE2D /* SportTheme.swift */,
+				D678CB9F24DF0E0B0012DE2D /* FlagTheme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,14 +217,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D678CB9C24DF0B6E0012DE2D /* FoodTheme.swift in Sources */,
+				D678CB8E24DEF8550012DE2D /* Theme.swift in Sources */,
 				D61D1C9124B648B7003CA395 /* MemoryGame.swift in Sources */,
+				D678CB9E24DF0C530012DE2D /* SportTheme.swift in Sources */,
 				D61D1C8424B6333B003CA395 /* EmojiMemoryGameView.swift in Sources */,
+				D678CB9424DEFD240012DE2D /* FaceTheme.swift in Sources */,
 				D61D1C8224B6333B003CA395 /* MemorizeApp.swift in Sources */,
+				D678CB9224DEFAFB0012DE2D /* HalloweenTheme.swift in Sources */,
 				D678CB8024DDA3430012DE2D /* GridLayout.swift in Sources */,
+				D678CB9A24DF02010012DE2D /* ColoredButton.swift in Sources */,
 				D678CB7E24DD9FAA0012DE2D /* Grid.swift in Sources */,
 				D678CB8224DDAA710012DE2D /* Array+Identifiable.swift in Sources */,
 				D61D1C9324B649B5003CA395 /* EmojiMemoryGame.swift in Sources */,
 				D678CB8424DDB98A0012DE2D /* Array+Only.swift in Sources */,
+				D678CBA024DF0E0B0012DE2D /* FlagTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
